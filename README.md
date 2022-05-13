@@ -2,7 +2,6 @@
 
 ## Follow along by creating your own initial setup
 - https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgres
-- The first tutorial is based on this doc, https://www.prisma.io/docs/support/help-articles/working-with-many-to-many-relations
 
 ## Init Database Setup
 ### WARNING: Do not run the following unless you want to start over and delete everything within your database schema
@@ -14,3 +13,6 @@
 ## Init Start
 Once your database and schema are set up you can run the `index.ts` file with the following:
 - Run `npm sun start`
+- You can run each tutorial by changing directory to that folder and the above commands will work with that context
+- So `cd playground-examples/1-tutorial` and the run `npm run reset`, this will reset the database to match the schema within that tutorial project
+- However, to start the project you will need to run `ts-node index.ts` within that folder
