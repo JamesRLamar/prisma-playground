@@ -13,6 +13,4 @@
 ## Init Start
 Once your database and schema are set up you can run the `index.ts` file with the following:
 - Run `npm sun start`
-- You can run each tutorial by changing directory to that folder and the above commands will work with that context
-- So `cd playground-examples/1-tutorial` and the run `npm run reset`, this will reset the database to match the schema within that tutorial project
-- However, to start the project you will need to run `ts-node index.ts` within that folder
+- To run each tutorial project, you can copy the contents of scheme.prisma and index.ts file respective files in the root

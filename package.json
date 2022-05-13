@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node index.ts",
     "reset": "npx prisma migrate reset",
+    "migrate": "npx prisma migrate dev --name \"init\" --preview-feature",
     "pull": "npx prisma pull",
     "generate": "npx prisma generate"
   },
