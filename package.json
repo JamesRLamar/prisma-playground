@@ -1,0 +1,25 @@
+{
+  "name": "prisma-playground",
+  "version": "1.0.0",
+  "description": "A playground for learning Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRLamar/prisma-playground.git"
+  },
+  "author": "James Lamar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesRLamar/prisma-playground/issues"
+  },
+  "homepage": "https://github.com/JamesRLamar/prisma-playground#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "prisma": "^3.14.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
